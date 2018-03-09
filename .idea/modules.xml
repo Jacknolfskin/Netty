@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Netty.iml" filepath="$PROJECT_DIR$/Netty.iml" />
       <module fileurl="file://$PROJECT_DIR$/NettyChat/NettyChat.iml" filepath="$PROJECT_DIR$/NettyChat/NettyChat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NettyEcho/NettyEcho.iml" filepath="$PROJECT_DIR$/NettyEcho/NettyEcho.iml" />
       <module fileurl="file://$PROJECT_DIR$/NettyWebSocket/NettyWebSocket.iml" filepath="$PROJECT_DIR$/NettyWebSocket/NettyWebSocket.iml" />
     </modules>
   </component>

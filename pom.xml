@@ -11,6 +11,7 @@
     <modules>
         <module>NettyWebSocket</module>
         <module>NettyChat</module>
+        <module>NettyEcho</module>
     </modules>
 
     <dependencies>
