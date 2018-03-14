@@ -12,6 +12,7 @@
         <module>NettyWebSocket</module>
         <module>NettyChat</module>
         <module>NettyEcho</module>
+        <module>HeartBeat</module>
     </modules>
 
     <dependencies>
