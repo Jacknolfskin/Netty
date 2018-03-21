@@ -9,6 +9,7 @@
         <module name="HeartBeat" />
         <module name="NettyChat" />
         <module name="NettyEcho" />
+        <module name="NettySingle" />
         <module name="NettyWebSocket" />
       </profile>
     </annotationProcessing>
@@ -17,6 +18,7 @@
       <module name="Netty" target="1.7" />
       <module name="NettyChat" target="1.7" />
       <module name="NettyEcho" target="1.7" />
+      <module name="NettySingle" target="1.7" />
       <module name="NettyWebSocket" target="1.7" />
     </bytecodeTargetLevel>
   </component>

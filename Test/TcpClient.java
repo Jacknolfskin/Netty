@@ -11,23 +11,20 @@ public class TcpClient {
 		Socket socket = null;  
         OutputStream out = null;  
   
-        try {  
-  
+        try {
             socket = new Socket("localhost", 8023);
-            out = socket.getOutputStream();  
-  
+            out = socket.getOutputStream();
             // 请求服务器  
             String lines = "床前明月光\r\n疑是地上霜\r\n举头望明月\r\n低头思故乡\r\n";  
             byte[] outputBytes = lines.getBytes("UTF-8");  
             out.write(outputBytes);  
             out.flush();  
   
-        } finally {  
+        } finally {
             // 关闭连接  
             out.close();  
             socket.close();  
-        }  
+        }
 
 	}
-
 }

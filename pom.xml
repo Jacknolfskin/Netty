@@ -13,6 +13,7 @@
         <module>NettyChat</module>
         <module>NettyEcho</module>
         <module>HeartBeat</module>
+        <module>NettySingle</module>
     </modules>
 
     <dependencies>
