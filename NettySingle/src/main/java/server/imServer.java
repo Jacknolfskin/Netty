@@ -9,8 +9,6 @@ import io.netty.handler.codec.http.HttpObjectAggregator;
 import io.netty.handler.codec.http.HttpServerCodec;
 import io.netty.handler.stream.ChunkedWriteHandler;
 
-import java.util.logging.SocketHandler;
-
 /**
  * @Author: Jacknolfskin
  * @Date: 2018/3/21 16:11

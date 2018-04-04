@@ -13,7 +13,10 @@ import io.netty.handler.timeout.IdleState;
 import io.netty.handler.timeout.IdleStateEvent;
 import io.netty.util.concurrent.GlobalEventExecutor;
 
+import java.io.File;
 import java.io.UnsupportedEncodingException;
+import java.net.URISyntaxException;
+import java.net.URL;
 
 /**
  * @Author: Jacknolfskin
@@ -25,8 +28,10 @@ public class SocketHandler extends ChannelInboundHandlerAdapter {
     public static ChannelGroup channels = new DefaultChannelGroup(GlobalEventExecutor.INSTANCE);
     private WebSocketServerHandshaker handshaker;
     private final String wsUri = "/ws";
+
+
     //websocket握手升级绑定页面
-    String wsFactoryUri = "";
+    String wsFactoryUri = "D:\\Git\\Netty\\NettySingle\\src\\main\\resources\\WebsocketSingleChat.html";
     /*
      * 握手建立
      */
