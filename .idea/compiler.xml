@@ -10,6 +10,7 @@
         <module name="NettyChat" />
         <module name="NettyEcho" />
         <module name="NettySingle" />
+        <module name="NettyUDP" />
         <module name="NettyWebSocket" />
       </profile>
     </annotationProcessing>
@@ -19,6 +20,7 @@
       <module name="NettyChat" target="1.7" />
       <module name="NettyEcho" target="1.7" />
       <module name="NettySingle" target="1.7" />
+      <module name="NettyUDP" target="1.7" />
       <module name="NettyWebSocket" target="1.7" />
     </bytecodeTargetLevel>
   </component>
