@@ -8,7 +8,7 @@ import java.net.Socket;
 public class TcpClient {
 
 	public static void main(String[] args) throws IOException  {
-		Socket socket = null;  
+		/*Socket socket = null;
         OutputStream out = null;  
   
         try {
@@ -24,7 +24,6 @@ public class TcpClient {
             // 关闭连接  
             out.close();  
             socket.close();  
-        }
-
+        }*/
 	}
 }

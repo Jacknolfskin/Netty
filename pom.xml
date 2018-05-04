@@ -15,6 +15,7 @@
         <module>HeartBeat</module>
         <module>NettySingle</module>
         <module>NettyUDP</module>
+        <module>MobileSDKChat</module>
     </modules>
 
     <dependencies>

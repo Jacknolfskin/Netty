@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="HeartBeat" />
+        <module name="MobileSDKChat" />
         <module name="NettyChat" />
         <module name="NettyEcho" />
         <module name="NettySingle" />
@@ -16,6 +17,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="HeartBeat" target="1.7" />
+      <module name="MobileSDKChat" target="1.7" />
       <module name="Netty" target="1.7" />
       <module name="NettyChat" target="1.7" />
       <module name="NettyEcho" target="1.7" />

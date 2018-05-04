@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/HeartBeat/HeartBeat.iml" filepath="$PROJECT_DIR$/HeartBeat/HeartBeat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MobileSDKChat/MobileSDKChat.iml" filepath="$PROJECT_DIR$/MobileSDKChat/MobileSDKChat.iml" />
       <module fileurl="file://$PROJECT_DIR$/Netty.iml" filepath="$PROJECT_DIR$/Netty.iml" />
       <module fileurl="file://$PROJECT_DIR$/NettyChat/NettyChat.iml" filepath="$PROJECT_DIR$/NettyChat/NettyChat.iml" />
       <module fileurl="file://$PROJECT_DIR$/NettyEcho/NettyEcho.iml" filepath="$PROJECT_DIR$/NettyEcho/NettyEcho.iml" />
