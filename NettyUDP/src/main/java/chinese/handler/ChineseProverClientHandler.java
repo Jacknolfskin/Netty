@@ -1,4 +1,4 @@
-package handler;
+package chinese.handler;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
@@ -8,7 +8,7 @@ import io.netty.util.CharsetUtil;
 /**
  * @Author: Jacknolfskin
  * @Date: 2018/4/18 16:17
- * @Path: handler
+ * @Path: chinese.handler
  */
 public class ChineseProverClientHandler extends
         SimpleChannelInboundHandler<DatagramPacket> {

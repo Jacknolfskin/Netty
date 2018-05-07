@@ -1,6 +1,6 @@
-package client;
+package chinese.client;
 
-import handler.ChineseProverClientHandler;
+import chinese.handler.ChineseProverClientHandler;
 import io.netty.bootstrap.Bootstrap;
 import io.netty.buffer.Unpooled;
 import io.netty.channel.Channel;
@@ -16,7 +16,7 @@ import java.net.InetSocketAddress;
 /**
  * @Author: Jacknolfskin
  * @Date: 2018/4/18 16:16
- * @Path: client
+ * @Path: chinese.client
  */
 public class ChineseProverbClient {
     public void run(int port) throws Exception{

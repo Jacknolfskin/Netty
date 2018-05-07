@@ -13,7 +13,7 @@ import io.netty.channel.ChannelHandlerContext;
 public class ServerHandler extends CustomHeartbeatHandler {
 
     public ServerHandler() {
-        super("server");
+        super("chinese.server");
     }
 
     @Override
@@ -30,7 +30,7 @@ public class ServerHandler extends CustomHeartbeatHandler {
     @Override
     protected void handleReaderIdle(ChannelHandlerContext ctx) {
         super.handleReaderIdle(ctx);
-        System.err.println("---client " + ctx.channel().remoteAddress().toString() + " reader timeout, close it---");
+        System.err.println("---chinese.client " + ctx.channel().remoteAddress().toString() + " reader timeout, close it---");
         ctx.close();
     }
 }

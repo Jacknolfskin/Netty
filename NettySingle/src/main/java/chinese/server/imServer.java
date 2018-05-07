@@ -1,4 +1,4 @@
-package server;
+package chinese.server;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.*;
@@ -12,7 +12,7 @@ import io.netty.handler.stream.ChunkedWriteHandler;
 /**
  * @Author: Jacknolfskin
  * @Date: 2018/3/21 16:11
- * @Path: server
+ * @Path: chinese.server
  */
 public class imServer {
     private io.netty.channel.Channel channel;
@@ -38,7 +38,7 @@ public class imServer {
                             pipeline.addLast("http-codec", new HttpServerCodec());
                             pipeline.addLast("aggregator", new HttpObjectAggregator(65536)); // Http消息组装
                             pipeline.addLast("http-chunked", new ChunkedWriteHandler()); // WebSocket通信支持
-                            pipeline.addLast(new server.SocketHandler());//自定义处理类
+                            pipeline.addLast(new chinese.server.SocketHandler());//自定义处理类
 
                         }
                     })

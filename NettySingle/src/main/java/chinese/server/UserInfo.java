@@ -1,11 +1,11 @@
-package server;
+package chinese.server;
 
 import io.netty.channel.Channel;
 
 /**
  * @Author: Jacknolfskin
  * @Date: 2018/3/21 16:33
- * @Path: server
+ * @Path: chinese.server
  */
 public class UserInfo {
     private String userId;  // UID

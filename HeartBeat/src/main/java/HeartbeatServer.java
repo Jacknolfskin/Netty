@@ -16,7 +16,7 @@ public final class HeartbeatServer {
 
     public static void main(String[] args) throws Exception {
 
-        // Configure the server.
+        // Configure the chinese.server.
         EventLoopGroup bossGroup = new NioEventLoopGroup(1);
         EventLoopGroup workerGroup = new NioEventLoopGroup();
         try {
@@ -27,10 +27,10 @@ public final class HeartbeatServer {
              .handler(new LoggingHandler(LogLevel.INFO))
              .childHandler(new HeartbeatHandlerInitializer());
 
-            // Start the server.
+            // Start the chinese.server.
             ChannelFuture f = b.bind(PORT).sync();
 
-            // Wait until the server socket is closed.
+            // Wait until the chinese.server socket is closed.
             f.channel().closeFuture().sync();
         } finally {
             // Shut down all event loops to terminate all threads.

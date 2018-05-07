@@ -13,7 +13,7 @@ import io.netty.channel.ChannelHandlerContext;
 public class ClientHandler extends CustomHeartbeatHandler {
     private Client client;
     public ClientHandler(Client client) {
-        super("client");
+        super("chinese.client");
         this.client = client;
     }
 

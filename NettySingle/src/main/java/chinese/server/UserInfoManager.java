@@ -1,4 +1,4 @@
-package server;
+package chinese.server;
 
 import io.netty.channel.Channel;
 import io.netty.handler.codec.http.websocketx.TextWebSocketFrame;
@@ -12,7 +12,7 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
 /**
  * @Author: Jacknolfskin
  * @Date: 2018/3/21 16:14
- * @Path: server
+ * @Path: chinese.server
  */
 public class UserInfoManager {
     private static ReentrantReadWriteLock rwLock = new ReentrantReadWriteLock(true);

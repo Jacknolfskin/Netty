@@ -1,4 +1,4 @@
-package server;
+package chinese.server;
 
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelHandlerContext;
@@ -13,15 +13,12 @@ import io.netty.handler.timeout.IdleState;
 import io.netty.handler.timeout.IdleStateEvent;
 import io.netty.util.concurrent.GlobalEventExecutor;
 
-import java.io.File;
 import java.io.UnsupportedEncodingException;
-import java.net.URISyntaxException;
-import java.net.URL;
 
 /**
  * @Author: Jacknolfskin
  * @Date: 2018/3/21 16:12
- * @Path: server
+ * @Path: chinese.server
  */
 public class SocketHandler extends ChannelInboundHandlerAdapter {
 

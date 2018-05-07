@@ -33,7 +33,7 @@ public class Client {
         Random random = new Random(System.currentTimeMillis());
         for (int i = 0; i < 10000; i++) {
             if (channel != null && channel.isActive()) {
-                String content = "client msg " + i;
+                String content = "chinese.client msg " + i;
                 ByteBuf buf = channel.alloc().buffer(5 + content.getBytes().length);
                 buf.writeInt(5 + content.getBytes().length);
                 buf.writeByte(CustomHeartbeatHandler.CUSTOM_MSG);
@@ -77,9 +77,9 @@ public class Client {
             public void operationComplete(ChannelFuture futureListener) throws Exception {
                 if (futureListener.isSuccess()) {
                     channel = futureListener.channel();
-                    System.out.println("Connect to server successfully!");
+                    System.out.println("Connect to chinese.server successfully!");
                 } else {
-                    System.out.println("Failed to connect to server, try connect after 10s");
+                    System.out.println("Failed to connect to chinese.server, try connect after 10s");
 
                     futureListener.channel().eventLoop().schedule(new Runnable() {
                         @Override

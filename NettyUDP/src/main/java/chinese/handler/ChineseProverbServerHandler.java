@@ -1,4 +1,4 @@
-package handler;
+package chinese.handler;
 
 import io.netty.buffer.Unpooled;
 import io.netty.channel.ChannelHandlerContext;
@@ -11,7 +11,7 @@ import java.util.concurrent.ThreadLocalRandom;
 /**
  * @Author: Jacknolfskin
  * @Date: 2018/4/18 16:15
- * @Path: handler
+ * @Path: chinese.handler
  */
 public class ChineseProverbServerHandler extends
         SimpleChannelInboundHandler<DatagramPacket> {

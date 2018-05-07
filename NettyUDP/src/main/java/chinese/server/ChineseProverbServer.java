@@ -1,6 +1,6 @@
-package server;
+package chinese.server;
 
-import handler.ChineseProverbServerHandler;
+import chinese.handler.ChineseProverbServerHandler;
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.ChannelOption;
 import io.netty.channel.EventLoopGroup;
@@ -10,7 +10,7 @@ import io.netty.channel.socket.nio.NioDatagramChannel;
 /**
  * @Author: Jacknolfskin
  * @Date: 2018/4/18 16:14
- * @Path: server
+ * @Path: chinese.server
  */
 public class ChineseProverbServer {
     public void run(int port) throws Exception{
