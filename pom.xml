@@ -16,6 +16,8 @@
         <module>NettySingle</module>
         <module>NettyUDP</module>
         <module>MobileSDKChat</module>
+        <module>AttributeMap</module>
+        <module>NettyProtocol</module>
     </modules>
 
     <dependencies>

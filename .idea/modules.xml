@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/AttributeMap/AttributeMap.iml" filepath="$PROJECT_DIR$/AttributeMap/AttributeMap.iml" />
       <module fileurl="file://$PROJECT_DIR$/HeartBeat/HeartBeat.iml" filepath="$PROJECT_DIR$/HeartBeat/HeartBeat.iml" />
       <module fileurl="file://$PROJECT_DIR$/MobileSDKChat/MobileSDKChat.iml" filepath="$PROJECT_DIR$/MobileSDKChat/MobileSDKChat.iml" />
       <module fileurl="file://$PROJECT_DIR$/Netty.iml" filepath="$PROJECT_DIR$/Netty.iml" />
       <module fileurl="file://$PROJECT_DIR$/NettyChat/NettyChat.iml" filepath="$PROJECT_DIR$/NettyChat/NettyChat.iml" />
       <module fileurl="file://$PROJECT_DIR$/NettyEcho/NettyEcho.iml" filepath="$PROJECT_DIR$/NettyEcho/NettyEcho.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NettyProtocol/NettyProtocol.iml" filepath="$PROJECT_DIR$/NettyProtocol/NettyProtocol.iml" />
       <module fileurl="file://$PROJECT_DIR$/NettySingle/NettySingle.iml" filepath="$PROJECT_DIR$/NettySingle/NettySingle.iml" />
       <module fileurl="file://$PROJECT_DIR$/NettyUDP/NettyUDP.iml" filepath="$PROJECT_DIR$/NettyUDP/NettyUDP.iml" />
       <module fileurl="file://$PROJECT_DIR$/NettyWebSocket/NettyWebSocket.iml" filepath="$PROJECT_DIR$/NettyWebSocket/NettyWebSocket.iml" />

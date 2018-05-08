@@ -6,21 +6,25 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="AttributeMap" />
         <module name="HeartBeat" />
         <module name="MobileSDKChat" />
         <module name="NettyChat" />
         <module name="NettyEcho" />
+        <module name="NettyProtocol" />
         <module name="NettySingle" />
         <module name="NettyUDP" />
         <module name="NettyWebSocket" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="AttributeMap" target="1.7" />
       <module name="HeartBeat" target="1.7" />
       <module name="MobileSDKChat" target="1.7" />
       <module name="Netty" target="1.7" />
       <module name="NettyChat" target="1.7" />
       <module name="NettyEcho" target="1.7" />
+      <module name="NettyProtocol" target="1.7" />
       <module name="NettySingle" target="1.7" />
       <module name="NettyUDP" target="1.7" />
       <module name="NettyWebSocket" target="1.7" />
