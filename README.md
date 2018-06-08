@@ -9,6 +9,7 @@
 6. 增加Netty UDP协议实现
 7. 使用第三方IM聊天框架实现
 8. AttributeMap使用
+9. 自定义消息协议实现
 
 ## 技术讨论 & [博客地址](http://www.jacknolfskin.top/)
 如果对项目有任何疑问或者建议,欢迎到我的博客留言及交流!
